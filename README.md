@@ -1,94 +1,107 @@
-Here’s a revised format for the README.md with improved Markdown formatting for GitHub. This version ensures proper spacing and headings that should render well in GitHub’s editor:
+# Gantt Chart Generator
 
-Gantt Chart Generator
+A Python-based Gantt chart generator with two versions: a tkinter GUI and a basic script. Users can input tasks, set durations, and define dependencies to create customizable Gantt charts for project timeline visualization.
 
-A Python-based Gantt chart generator with a tkinter GUI. Users can input tasks, set durations, and define dependencies to create a fully customizable Gantt chart. The tool allows users to visualize project timelines and dependencies.
+## Table of Contents
 
-Table of Contents
+***None Yet***
 
-	•	Features
-	•	Installation
-	•	Usage
-	•	Screenshots
-	•	Contributing
-	•	License
+## Features
 
-Features
+- GUI Version:
+  - User-Friendly Interface: Easy-to-use GUI for inputting tasks, durations, and dependencies.
+  - Automated Dependency Handling: Adjusts task start dates based on dependencies.
+  - Customizable Chart: Set custom title and year for each chart.
+  - Scrollable Task List: Add multiple tasks in an organized layout.
+  - Save Chart: Export Gantt charts as .png or .jpg files.
 
-	•	User-Friendly GUI: Easy-to-use interface for inputting tasks, setting durations, and defining dependencies.
-	•	Automated Dependency Handling: Automatically adjusts task start dates based on dependencies.
-	•	Customizable Chart: Set a custom title and year for each chart.
-	•	Scrollable Task List: Add multiple tasks in a scrollable, organized layout.
-	•	Save Chart: Export Gantt charts as .png or .jpg files for easy sharing.
+- Basic Script Version:
+  - Quick Chart Generation: Create Gantt charts without a GUI.
+  - Random Color Assignment: Automatically assigns colors to tasks.
+  - Customizable via Code: Easily modify task data in the script.
 
-Installation
+## Installation
 
-Prerequisites
+### Prerequisites
 
-	•	Python 3.x: Ensure Python 3 is installed.
-	•	Required Libraries: tkinter (comes with Python), matplotlib
+- Python 3.x
+- Required Libraries: tkinter (included with Python), matplotlib
 
-Steps
+### Steps
 
-	1.	Clone the repository:
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/gantt-chart-generator.git
+   ```
 
-git clone https://github.com/yourusername/gantt-chart-generator.git
+2. Navigate to the project directory:
+   ```
+   cd gantt-chart-generator
+   ```
 
+3. Install dependencies:
+   ```
+   pip install matplotlib
+   ```
 
-	2.	Navigate to the project directory:
+## Usage
 
-cd gantt-chart-generator
+### GUI Version
 
+1. Run the Program:
+   ```
+   python gantt_chart_generator_gui.py
+   ```
 
-	3.	Install dependencies:
+2. Enter Chart Details:
+   - Set the Chart Title and Year in the input fields.
 
-pip install matplotlib
+3. Add Tasks:
+   - Enter task name, start date (MMDD format), duration (days), and dependencies.
 
+4. Generate and Save:
+   - Click "Generate Chart" to view the chart.
+   - Click "Save Chart" to export as an image file.
 
+### Basic Script Version
 
-Usage
+1. Edit the tasks list in `joes_gantt_generator_noai.py` with your project data.
 
-	1.	Run the Program:
+2. Run the script:
+   ```
+   python joes_gantt_generator_noai.py
+   ```
 
-python gantt_chart_generator.py
+3. The Gantt chart will be displayed with random colors for each task.
 
+## Screenshots
 
-	2.	Enter Chart Details:
-	•	Set the Chart Title and Year in the input fields.
-	3.	Add Tasks:
-	•	Enter task name, start date (in MMDD format), duration (in days), and any dependencies.
-	4.	Generate and Save:
-	•	Click Generate Chart to view the chart.
-	•	Click Save Chart to export as an image file.
+[Add screenshots of GUI and generated charts here]
 
-Screenshots
+## Basic Script (No GUI)
 
-Example Gantt Chart
+The basic script (`joes_gantt_generator_noai.py`) offers a minimal version without a GUI. It uses random colors and generates a Gantt chart based on pre-defined tasks in the script.
 
-GUI Interface
+For detailed instructions, refer to the included PDF guide: [Joes_Chart_Generator_NoGUI.pdf](path/to/Joes_Chart_Generator_NoGUI.pdf).
 
-Contributing
+## Contributing
 
-	1.	Fork the repository
-	2.	Create a feature branch:
+1. Fork the repository
+2. Create a feature branch:
+   ```
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch:
+   ```
+   git push origin feature/AmazingFeature
+   ```
+5. Open a pull request
 
-git checkout -b feature/AmazingFeature
+## License
 
-
-	3.	Commit your changes:
-
-git commit -m 'Add some AmazingFeature'
-
-
-	4.	Push to the branch:
-
-git push origin feature/AmazingFeature
-
-
-	5.	Open a pull request
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-This format should render correctly on GitHub, with clear headings, code blocks, and lists that follow Markdown best practices. Adjust any URLs or file paths as needed for your repository.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
