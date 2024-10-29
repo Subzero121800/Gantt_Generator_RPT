@@ -18,7 +18,7 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 - Basic Script Version:
   - Quick Chart Generation: Create Gantt charts without a GUI.
   - Random Color Assignment: Automatically assigns colors to tasks.
-  - Customizable via Code: Easily modify task data in the script.
+  - Customizable via Code: Modify task data in the script.
 
 ## Installation
 
@@ -36,7 +36,7 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 
 2. Navigate to the project directory:
    ```
-   cd gantt-chart-generator
+   cd Gannt_Generator_RPT
    ```
 
 3. Install dependencies:
@@ -50,7 +50,7 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 
 1. Run the Program:
    ```
-   python gantt_chart_generator_gui.py
+   python joes_generator_with_gui_pulled_enhancements.py
    ```
 
 2. Enter Chart Details:
@@ -65,7 +65,7 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 
 ### Basic Script Version
 
-1. Edit the tasks list in `joes_gantt_generator_noai.py` with your project data.
+1. Edit the tasks list in `joes_generator_with_gui_pulled_enhancements.py` with your project data.
 
 2. Run the script:
    ```
@@ -80,9 +80,9 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 
 ## Basic Script (No GUI)
 
-The basic script (`joes_gantt_generator_noai.py`) offers a minimal version without a GUI. It uses random colors and generates a Gantt chart based on pre-defined tasks in the script.
+The basic script (`Joes Gantt Generator No GUI_Simple.py`) offers a minimal version without a GUI. It uses random colors and generates a Gantt chart based on pre-defined tasks in the script.
 
-For detailed instructions, refer to the included PDF guide: [Joes_Chart_Generator_NoGUI.pdf](path/to/Joes_Chart_Generator_NoGUI.pdf).
+For detailed instructions, refer to the included PDF guide: [Joes Gantt Generator No GUI_Simple.pdf](path/to/Joes Gantt Generator No GUI_Simple.pdf).
 
 ## Contributing
 
