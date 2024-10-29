@@ -31,7 +31,7 @@ A Python-based Gantt chart generator with two versions: a tkinter GUI and a basi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/gantt-chart-generator.git
+   git clone https://github.com/subzero121800/Gannt_Generator_RPT.git
    ```
 
 2. Navigate to the project directory:
