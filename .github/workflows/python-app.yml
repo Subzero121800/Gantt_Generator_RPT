@@ -36,4 +36,3 @@ jobs:
         python joes_generator_with_gui_pulled_enhancements.py
         python Joes Gantt Generator No GUI_Simple.py
         # Add more Python scripts as needed
-```
